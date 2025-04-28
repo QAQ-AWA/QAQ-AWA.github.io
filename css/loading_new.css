@@ -1,4 +1,5 @@
+/* 修改你在自定义 CSS 文件中的 .loading-img 样式 */
 .loading-img {
-  background: url(https://halfair.top/img/halfair.top) no-repeat center center;
-  background-size: cover;
-}
+    background: url(/img/halfair.jpg) no-repeat center center; /* 将这里的 URL 改为你的本地图片路径 */
+    background-size: cover;
+  }
