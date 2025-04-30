@@ -9,7 +9,7 @@
         dnum = Math.floor(days);
         hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
         hnum = Math.floor(hours);
-        if (String(hnum).length === 1) {s
+        if (String(hnum).length === 1) {
             hnum = "0" + hnum;
         }
         minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
